@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr min-content;
+}
+
+.left-container {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background:url(lohp_en_1302x955.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.left_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left_content svg {
+    fill: #fff;
+    width: 90%;
+    height: 60%;
+    max-width: 380px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    padding: 20px;
+    min-width: 437px;
+    max-width: 760px;
+    width: 100%;
+    font-family: 'Chango', cursive;
+}
+
+.logo svg {
+    fill: rgb(29, 155, 240);
+    width: 45px;
+    height: 45px;
+    padding-bottom: 12px;
+}
+
+h1 {
+    line-height: 27px;
+    letter-spacing: -1.2px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-bottom: 48px;
+}
+
+.h3 {
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+button.btn1 {
+    border-color: rgb(207, 217, 222);
+    background-color: rgba(255,255,255,1.00);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9999px;
+    width: 300px;
+    max-width: 380px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    transition:background-color 0.3s;
+    box-shadow: 1px;
+    margin-bottom: 5px;
+}
+
+a.btn1 {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn1 a:visited {
+    color: #000;
+}
+
+button.btn2 {
+    border-color: rgb(207, 217, 222);
+    background-color: rgba(255,255,255,1.00);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9999px;
+    width: 300px;
+    max-width: 380px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    transition:background-color 0.3s;
+    box-shadow: 1px;
+    margin-bottom: 5px;
+}
+
+a.btn2 {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn2 a:visited {
+    color: #000;
+}
+
+button.btn1:hover , button.btn2:hover {
+    background-color: #d9d9d9 ;
+}
+
+.or {
+    padding-left: 139px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.btn3 {
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgb(29, 155, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9999px;
+    width: 300px;
+    max-width: 380px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    transition:background-color 0.3s;
+    box-shadow: 1px;
+    margin-bottom: 2px;
+}
+
+button.btn3:hover {
+    background-color:#0047b3 ;
+}
+
+a.btn3 {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn3 a:visited {
+    color: #fff;
+}
+
+p {
+    color: rgb(83, 100, 113);
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+}
+
+
+
+.par1 {
+    margin-bottom: 20px;
+}
+
+.par1 a:hover {
+    text-decoration: underline;
+}
+
+.signform3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 9px;
+}
+
+button.btn4 {
+    border-color: rgb(207, 217, 222);
+    background-color: rgba(255,255,255,1.00);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9999px;
+    width: 300px;
+    max-width: 380px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+    transition:background-color 0.3s;
+    box-shadow: 1px;
+    margin-bottom: 5px;
+}
+
+button.btn4:hover {
+    background-color: #e6f2ff;
+}
+
+a.btn4 {
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+}
+
+.btn4 a:visited {
+    color: rgb(29, 155, 240);
+}
+
+.footer-page {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    height: 100%;
+    width: 100%;
+    margin: 14px 40px;
+    text-align: center;
+}
+
+.footer-page a {
+    padding-right: 16px;
+    text-decoration: none;
+}
+
+
+
+.menu li {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    display: inline;
+}
+
+.menu li:hover{
+    text-decoration: underline;
+}
+
